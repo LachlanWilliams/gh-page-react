@@ -1,4 +1,5 @@
-import react from 'react';
+import React from 'react';
+import ReactDOM from 'react-dom';
 import { Box, Typography } from '@mui/material';
 
 const Header = () => {
@@ -6,7 +7,6 @@ const Header = () => {
        <Box>
             <Typography variant='h3'>Lachlan Williams</Typography>
             <Typography variant='h3'>Home</Typography>
-         
        </Box>
     );
     }
