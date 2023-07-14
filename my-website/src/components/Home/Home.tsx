@@ -1,11 +1,11 @@
 import React from 'react';
 import { Box, Typography } from '@mui/material';
-import Header from './Header';
+import NavBar from './NavBar';
 
 const Home = () => {
     return (
        <Box>
-         <Header />
+         <NavBar />
        </Box>
     );
     }
