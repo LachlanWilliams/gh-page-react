@@ -71,6 +71,10 @@ body {
 .navbar label {
     display: none;
 }
+.homeIcon {
+  width: 50px; 
+  height: 50px;
+}
 @media screen and (max-width: 600px) {
     .menu {
         width: 100%;

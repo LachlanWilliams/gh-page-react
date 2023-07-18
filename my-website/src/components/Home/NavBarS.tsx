@@ -1,16 +1,8 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import { Box, Typography } from '@mui/material';
 import HomeIcon from '../../assets/images/HomeIcon.png';
 
-const NavBar = () => {
-    const smallScreen = useMediaQuery(
-        "(min-width: 300px) and (max-width: 600px)"
-    );
-    
-    if(smallScreen){
-        
-    }
+const NavBarS = () => {
     return (
        <Box >
         <nav className="navbar container">
@@ -31,4 +23,4 @@ const NavBar = () => {
     );
     }
 
-export default NavBar
+export default NavBarS
