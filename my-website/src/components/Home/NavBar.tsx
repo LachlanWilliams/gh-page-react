@@ -1,7 +1,7 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import { Box, useMediaQuery } from "@mui/material";
 import HomeIcon from '../../assets/images/HomeIcon.png';
+import NavBarS from './NavBarS';
 
 const NavBar = () => {
     const smallScreen = useMediaQuery(
@@ -9,7 +9,7 @@ const NavBar = () => {
     );
     
     if(smallScreen){
-
+        return(<NavBarS />)
     }
     return (
        <Box >
