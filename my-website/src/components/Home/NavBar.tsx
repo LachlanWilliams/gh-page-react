@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Box, Typography } from '@mui/material';
+import { Box, useMediaQuery } from "@mui/material";
 import HomeIcon from '../../assets/images/HomeIcon.png';
 
 const NavBar = () => {
@@ -9,7 +9,7 @@ const NavBar = () => {
     );
     
     if(smallScreen){
-        
+
     }
     return (
        <Box >
