@@ -13,7 +13,7 @@ const NavBar = () => {
     }
     return (
        <Box >
-        <nav className="navbar container">
+        <nav className="navbar">
             <a href="#" className="logo">
                 <img className="homeIcon" src={HomeIcon} alt="Home Icon" />
             </a>

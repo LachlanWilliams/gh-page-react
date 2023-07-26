@@ -6,20 +6,11 @@ import HomeIcon from '../../assets/images/HomeIcon.png';
 const NavBarS = () => {
     return (
        <Box >
-        <nav className="navbar container">
+        <nav className="navbar">
             <a href="#" className="logo">
                 <img className="homeIcon" src={HomeIcon} alt="Home Icon" />
             </a>
-            <Button startIcon={<MenuRoundedIcon/>}/>
-            <input type="checkbox" id="toggler" />
-            <label htmlFor="toggler"><i className="ri-menu-line"></i></label>
-            <div className="menu">
-                <ul className="list">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </div>
+            <Button startIcon={<MenuRoundedIcon className='menuIcon' />}/>
         </nav>
        </Box>
     );
