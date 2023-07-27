@@ -1,6 +1,5 @@
 import React from 'react';
 import { Box, Typography, Button } from '@mui/material';
-import MenuRoundedIcon from '@mui/icons-material/MenuRounded';
 import HomeIcon from '../../assets/images/HomeIcon.png';
 import MenuIcon from '../../assets/images/MenuIcon.png';
 
@@ -16,16 +15,6 @@ const NavBarS = () => {
             <a href="#" className="menu">
                 <img className="menuIcon" src={MenuIcon} alt="MenuIcon" />
             </a>
-        </nav>
-       </Box>
-    );
-    return (
-       <Box >
-        <nav className="navbar">
-            <a href="#" className="menuIcon">
-                <img className="DropMenuIcon" src={MenuIcon} alt="MenuIcon" />
-            </a>
-            {/* <Button startIcon={<MenuRoundedIcon className='menuIcon' />}/> */}
         </nav>
        </Box>
     );
