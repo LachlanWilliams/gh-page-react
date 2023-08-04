@@ -103,4 +103,36 @@ body {
     #toggler:checked ~ .menu {
         max-height: 100%;
     }
+    .DdmBackgroud {
+      width: 393;
+      height: 214;
+      left: 0; 
+      top: 0;
+      position: 'absolute';
+      background: 'rgba(30, 30, 30, 0.20)';
+    }
+    .DdmHome{
+      width: 93;
+      height: 32;
+      left: 150;
+      top: 25;
+      position: 'absolute';
+      color: 'white';
+    }
+    .DdmAbout{
+      width: 93;
+      height: 40.52;
+      left: 150;
+      top: 87;
+      position: 'absolute';
+      color: 'white';
+    }
+    .DdmContact{
+      width: 119;
+      height: 32;
+      left: 137;
+      top: 158;
+      position: 'absolute';
+      color: 'white';
+    }
 }

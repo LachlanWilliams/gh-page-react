@@ -2,6 +2,8 @@ import React from 'react';
 import { Box, Typography, Button } from '@mui/material';
 import HomeIcon from '../../assets/images/HomeIcon.png';
 import MenuIcon from '../../assets/images/MenuIcon.png';
+import DropDownMenu from './DropDownMenu';
+
 
 const NavBarS = () => {
     return (
@@ -15,6 +17,7 @@ const NavBarS = () => {
             <a href="#" className="menu">
                 <img className="menuIcon" src={MenuIcon} alt="MenuIcon" />
             </a>
+            <DropDownMenu/>
         </nav>
        </Box>
     );

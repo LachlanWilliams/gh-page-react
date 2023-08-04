@@ -1,11 +1,13 @@
 import React from 'react';
-import { Box, useMediaQuery } from "@mui/material";
-import HomeIcon from '../../assets/images/HomeIcon.png';
-import NavBarS from './NavBarS';
 
 const DropDownMenu = () => {
     return(
-
+        <div className="Dropdownmenu" style={{width: 393, height: 214, position: 'relative'}}>
+            <div className="Ddmbackground" />
+            <div className="DdmContact" >Contact</div>
+            <div className="DdmAbout">About</div>
+            <div className="DdmHome">Home</div>
+        </div>
     );
 }
 export default DropDownMenu;
